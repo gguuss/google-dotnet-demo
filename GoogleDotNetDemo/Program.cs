@@ -23,6 +23,7 @@ namespace GoogleDotNetDemo
             Tokeninfo info = request.Execute();
             Console.Write(@"Scope: " + info.Scope + "\n");
             Console.WriteLine(@"Expires: " + info.ExpiresIn);
+            Console.ReadLine();
         }
     }
 }

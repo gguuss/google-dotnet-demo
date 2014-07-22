@@ -1,0 +1,4 @@
+*.suo
+packages
+GoogleDotNetDemo/bin
+GoogleDotNetDemo/obj
