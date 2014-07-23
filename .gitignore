@@ -1,4 +1,6 @@
 *.suo
 packages
+GoogleAuthDemo/bin
+GoogleAuthDemo/obj
 GoogleDotNetDemo/bin
 GoogleDotNetDemo/obj

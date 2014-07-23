@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleDotNetDemo", "GoogleDotNetDemo\GoogleDotNetDemo.csproj", "{D92DAA6C-FEFC-4EDC-81F2-5B28695DD394}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E81B7EEF-6B94-4959-B07B-842420723496}"
@@ -9,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E81B7E
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAuthDemo", "GoogleAuthDemo\GoogleAuthDemo.csproj", "{4F053E95-3112-4CF1-826C-CAED3180F13C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +24,10 @@ Global
 		{D92DAA6C-FEFC-4EDC-81F2-5B28695DD394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D92DAA6C-FEFC-4EDC-81F2-5B28695DD394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D92DAA6C-FEFC-4EDC-81F2-5B28695DD394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F053E95-3112-4CF1-826C-CAED3180F13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F053E95-3112-4CF1-826C-CAED3180F13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F053E95-3112-4CF1-826C-CAED3180F13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F053E95-3112-4CF1-826C-CAED3180F13C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
