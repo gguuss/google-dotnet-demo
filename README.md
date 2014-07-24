@@ -1,4 +1,4 @@
-# Demo: Token verification from a .NET Console app
+# .NET Console Demos: Token verification / Authorization
 
 This demo shows you how to make a simple API call using the Google API client
 library for .NET.
