@@ -1,7 +1,7 @@
 # .NET Console Demos: Token verification / Authorization
 
 This demo shows you how to make a simple API call using the Google API client
-library for .NET.
+library for .NET and how to make an authorized API call using the Google API client.
 
 ## Running the GoogleDotNetDemo
 
