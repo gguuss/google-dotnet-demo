@@ -18,5 +18,6 @@ library for .NET and how to make an authorized API call using the Google API cli
 2. Right click the solution and select Manage NuGet Packages
 3. Restore the packages
 4. Update the client ID and secret with new credentials from the [Google APIs console](https://code.google.com/apis/console)
-5. Press F5 to build and run the app
-6. Sign in when the app starts
+5. Select the GoogleAuthDemo app from the Visual Studio launch/debug icon
+6. Press F5 to build and run the app
+7. Sign in when the app starts
