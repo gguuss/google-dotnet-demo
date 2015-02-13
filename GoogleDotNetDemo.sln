@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleDotNetDemo", "GoogleDotNetDemo\GoogleDotNetDemo.csproj", "{D92DAA6C-FEFC-4EDC-81F2-5B28695DD394}"
 EndProject
@@ -15,6 +15,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAuthDemo", "GoogleAuthDemo\GoogleAuthDemo.csproj", "{4F053E95-3112-4CF1-826C-CAED3180F13C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthWithAppActivities", "AuthWithAppActivities\AuthWithAppActivities.csproj", "{0B196E3D-4980-4305-A9AD-E52B92AA6D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceAccountDemo", "ServiceAccountDemo\ServiceAccountDemo.csproj", "{78AB0666-B33C-4B0E-9343-7C403AEE945F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,10 @@ Global
 		{0B196E3D-4980-4305-A9AD-E52B92AA6D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B196E3D-4980-4305-A9AD-E52B92AA6D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B196E3D-4980-4305-A9AD-E52B92AA6D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AB0666-B33C-4B0E-9343-7C403AEE945F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AB0666-B33C-4B0E-9343-7C403AEE945F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AB0666-B33C-4B0E-9343-7C403AEE945F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AB0666-B33C-4B0E-9343-7C403AEE945F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
