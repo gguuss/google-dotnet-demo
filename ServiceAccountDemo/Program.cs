@@ -28,10 +28,11 @@ namespace ServiceAccountDemo
 
 
         /// <summary>
-        /// Builds an OAuth2 service for demonstrating how to construct the object for an API call.
+        /// Builds an OAuth2 service for demonstrating how to construct the
+        /// object for an API call.
         /// </summary>
         /// @param userEmail The email of the user.
-        /// <returns>Drive service object.</returns>
+        /// <returns>Google OAuth 2 service object.</returns>
         static async void BuildService()
         {
             X509Certificate2 certificate = new X509Certificate2(SERVICE_ACCOUNT_PKCS12_FILE_PATH, "notasecret",
@@ -43,7 +44,7 @@ namespace ServiceAccountDemo
                     Scopes = new[] {"profile"}
                 }.FromCertificate(certificate));
 
-            await credential.RequestAccessTokenAsync(CancellationToken.None);            
+            await credential.RequestAccessTokenAsync(CancellationToken.None);
             string accessToken = credential.Token.AccessToken;
 
             cachedService = new Oauth2Service(new BaseClientService.Initializer()
