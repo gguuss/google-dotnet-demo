@@ -44,4 +44,5 @@ All using the Google API client library from .NET console applications.
 2. Right click the solution and select Manage NuGet Packages
 3. Restore the packages
 4. Update the service account email and certificate with new credentials from the [Google APIs console](https://code.google.com/apis/console)
-5. Press F5 to run the sample.
+5. Press F5 to run the sample
+6. The app will retrieve authorization credentials and will verify the tokens against the OAuth 2.0 server
