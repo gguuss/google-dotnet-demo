@@ -50,7 +50,7 @@ namespace ServiceAccountDemo
             cachedService = new Oauth2Service(new BaseClientService.Initializer()
             {
                 HttpClientInitializer = credential,
-                ApplicationName = "Merchant POS Demo"
+                ApplicationName = "Demo"
             });
 
             Oauth2Service.TokeninfoRequest request = cachedService.Tokeninfo();
